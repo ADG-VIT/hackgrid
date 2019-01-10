@@ -1,7 +1,10 @@
+html{
+    scroll-behavior: smooth;
+}
 body{
     font-family: 'Dosis', sans-serif;
     align-content: center;
-    margin: 5px 10px;
+    width:100%;
 }
 h1{
     font-weight: 900;
@@ -52,7 +55,6 @@ a{
 #top-image{
     width:100%;
     background-image: url("images/Rectangle\ 1.png");
-    /* background-repeat: no-repeat; */
 }
 .narrow{
     padding:4px 300px;
@@ -61,7 +63,7 @@ a{
 .navbar{
     background-color: rgba(0, 0, 0, 0);
     border: none;
-    padding:25px 150px;
+    padding:25px 100px;
 }
 #sponsors{
     padding: 30px 220px;
@@ -84,7 +86,7 @@ li{
     font-weight: 999;
 }
 li:hover{
-    background-color:rgb(255, 0, 157);
+    background-color:rgb(255, 0, 106);
 }
 li:active{
     background-color:rgb(255, 255, 255);
@@ -115,16 +117,16 @@ li:active #navi{
     text-decoration: none;
     color:rgb(255, 255, 255);
     padding: 12px 55px;
-    background-color: rgb(255, 0, 157);
+    background-color: rgb(255, 0, 106);
 }
 #button-dark:hover{
     background-color: rgb(59, 53, 58);
 }
 #button-dark:active{
-    background-color: rgb(250, 67, 183);
+    background-color: rgb(255, 0, 106);
 }
 .turn-pink:hover{
- background-color: rgb(255, 0, 157);
+ background-color: rgb(255, 0, 106);
 }
 .turn-pink:active{
     background-color: rgba(36, 33, 33, 0.945);
@@ -134,7 +136,7 @@ li:active #navi{
     background-color: rgb(59, 53, 58);
    }
    .turn-grey:active{
-    background-color: rgb(250, 67, 183);
+    background-color: rgb(255, 0, 106);
 }
 #aboutus-recent{
     background-color: rgb(2, 3, 10);
