@@ -138,6 +138,9 @@ li:active #navi{
    .turn-grey:active{
     background-color: rgb(255, 0, 106);
 }
+#circle-border{
+    width: 50%;
+}
 #aboutus-recent{
     background-color: rgb(2, 3, 10);
     padding: 50px 250px;
@@ -150,6 +153,9 @@ li:active #navi{
 @media screen and (-webkit-min-device-pixel-ratio:2) {
     #aboutus-recent{
         padding: 10px 20px;
+    }
+    #circle-border{
+        width: 90%;
     }
 }
 #header-top strong{
