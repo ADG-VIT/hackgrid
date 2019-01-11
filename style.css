@@ -53,6 +53,7 @@ a{
     font-size: 13px;
 }
 #sub-heading{
+    font-family: Dosis;
     font-size: 40px;
     font-weight: 10; 
     color:white;
@@ -87,7 +88,7 @@ a{
         padding:0px 0px;
     }
     .narrow{
-        padding:4px 10px;
+        padding:4px 20px;
     }
     #sponsors{
         padding: 20px 10px;
