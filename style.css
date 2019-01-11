@@ -50,7 +50,7 @@ a{
 }
 .small-text{
     font-family: Dosis;
-    font-size: 12px;
+    font-size: 13px;
 }
 #sub-heading{
     font-size: 40px;
@@ -199,7 +199,7 @@ li:active #navi{
     display: inline-block;
     border-top: solid rgb(248, 76, 76);
     border-width: 2px;
-    width: 70px;
+    width: 80px;
 }
 #soc-tag{
     margin-right: 10px;
