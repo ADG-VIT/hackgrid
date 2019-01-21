@@ -16,6 +16,7 @@ h1{
     color:white;
 }
 h5{
+    font-family: dosis;
     font-weight: 900;
     font-size: 16px;
     color:rgb(10, 10, 10);
@@ -41,16 +42,17 @@ a{
     font-weight: 999;
 }
 #text-grey{
-    color:rgb(97, 90, 90);
+    color:rgb(124, 117, 117);
     font-weight: 999;
 }
 .sub-text{
+    font-family: Dosis;
     font-size:19px;
     font-weight: 900;
 }
 .small-text{
     font-family: Dosis;
-    font-size: 13px;
+    font-size: 14px;
 }
 #sub-heading{
     font-family: Dosis;
@@ -116,16 +118,38 @@ li:active #navi{
 #button{
     font-weight: 999;
     font-size: 18px;
-    border:solid white;
+    border:solid rgb(255, 255, 255);
     border-radius: 100px;
     text-decoration: none;
-    color:white;
+    color:rgb(255, 255, 255);
     padding: 12px 55px;
+    -webkit-animation-name: button-blink; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 0.8s; /* Safari 4.0 - 8.0 */
+    animation-name: button-blink;
+    animation-duration: 0.8s;
+    animation-iteration-count: infinite;
 }
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes button-blink {
+    0% {padding: 12px 55px;}
+    50% {padding: 13px 55.5px;
+        /* text-shadow: 1px 1px 2px black, 0 0 5px rgb(230, 230, 248); */
+        box-shadow: 0px 0px 2px rgb(179, 171, 171), 0 0 5px rgb(255, 255, 255);}
+    100% {padding: 12px 55px;}
+  }
+  
+  /* Standard syntax */
+  @keyframes button-blink {
+    0% {padding: 12px 55px;}
+    50% {padding: 12px 55px;
+        /* text-shadow: 1px 1px 2px black, 0 0 5px rgb(230, 230, 248); */
+        box-shadow: 0px 0px 2px rgb(179, 171, 171), 0 0 5px rgb(255, 255, 255);}
+    100% {padding: 12px 55px;}
+  }
 #button-dark{
     font-weight: 999;
     font-size: 18px;
-    border:solid rgba(255, 255, 255, 0);
+    border:solid rgb(255, 255, 255);
     border-radius: 100px;
     text-decoration: none;
     color:rgb(255, 255, 255);
