@@ -47,8 +47,9 @@ a{
 }
 .sub-text{
     font-family: Dosis;
-    font-size:19px;
-    font-weight: 900;
+    font-size: 21px;
+    font-weight: bolder;
+    margin-bottom: -5px;
 }
 .small-text{
     font-family: Dosis;
@@ -253,4 +254,9 @@ li:active #navi{
 
 .registerHere {
     margin-bottom: 40px;
+}
+
+.thumbnail {
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
