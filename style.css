@@ -141,7 +141,7 @@ li:active #navi{
   /* Standard syntax */
   @keyframes button-blink {
     0% {padding: 12px 55px;}
-    50% {padding: 12px 55px;
+    50% {padding: 12px 55.5px;
         /* text-shadow: 1px 1px 2px black, 0 0 5px rgb(230, 230, 248); */
         box-shadow: 0px 0px 2px rgb(179, 171, 171), 0 0 5px rgb(255, 255, 255);}
     100% {padding: 12px 55px;}
