@@ -12,13 +12,13 @@ body{
 }
 h1{
     font-weight: 900;
-    font-size: 8vh;
+    font-size: 49px;
     color:white;
 }
 h5{
     font-family: dosis;
     font-weight: 900;
-    font-size: 1.2vw;
+    font-size: 16px;
     color:rgb(10, 10, 10);
 }
 a{
@@ -28,13 +28,13 @@ a{
 #heading{
     font-weight: 999;
     color: white;
-    font-size: 2.8vw;
+    font-size: 40px;
 
 }
 #heading-dark{
     font-weight: 999;
     color: rgb(0, 0, 0);
-    font-size: 2.8vw;
+    font-size: 40px;
 }
 
 #text-white{
@@ -201,7 +201,7 @@ li:active #navi{
 }
 
 .thumbnail {
-    width: 17vw !important;
+    width: 40vh;
      height: auto;
      padding-top: 10px;
      padding-bottom: 10px;
