@@ -5,33 +5,44 @@ html{
     font-family: DosisBold;
     src: url(images/Dosis-ExtraBold.otf);
   }
+@font-face {
+    font-family: ExoLight;
+    src: url(images/exo.extra-light.otf);
+}
 body{
-    font-family: 'DosisBold', sans-serif;
+    font-family: 'ExoLight', sans-serif;
     align-content: center;
     
 }
 h1{
+    font-family: 'dosis';
     font-weight: 900;
     font-size: 9vh;
     color:white;
 }
 h5{
-    font-family: dosis;
     font-weight: 900;
-    font-size: 2.6vh;
+    font-size: 2.2vh;
+    letter-spacing: 1.5px;
     color:rgb(10, 10, 10);
+}
+h4{
+    font-family: Dosis;
+
 }
 a{
     font-weight: 900;
     text-decoration: none;
 }
 #heading{
+    font-family: 'dosis';
     font-weight: 999;
     color: white;
     font-size: 6vh;
 
 }
 #heading-dark{
+    font-family: 'dosis';
     font-weight: 999;
     color: rgb(0, 0, 0);
     font-size: 6vh;
@@ -46,17 +57,17 @@ a{
     font-weight: 999;
 }
 .sub-text{
-    font-family: Dosis;
-    font-size: 4vh;
+    font-family: 'dosis';
+    font-size: 3vh;
     font-weight: bolder;
     margin-bottom: -5px;
 }
 .small-text{
-    font-family: Dosis;
     font-size: 2vh;
+    letter-spacing: 1px;
 }
 #sub-heading{
-    font-family: Dosis;
+
     font-size: 6vh;
     font-weight: 10; 
     color:white;
@@ -67,9 +78,9 @@ a{
     background-image: url("images/Banner_image.png");
     
 }
-@media screen and (-webkit-min-device-pixel-ratio:2) {
+@media screen and (-webkit-min-device-pixel-ratio:3) {
     #top-image{
-        height: 89vh;
+        height: 100vh;
         background-image: url("images/Banner_imageMob.png")
         /* background-position-x: 1100px;
         background-position-y: -350px; */
@@ -201,7 +212,9 @@ li:active #navi{
 }
 
 .thumbnail {
-    width: 40vh;
+    width: 30vh;
+    margin-right: auto;
+    margin-left: auto;
      height: auto;
      padding-top: 10px;
      padding-bottom: 10px;
